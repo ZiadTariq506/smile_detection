@@ -4,7 +4,7 @@ from random import randrange
 module = cv2.CascadeClassifier("module.xml")
 
 # Load image to our script
-img = cv2.imread("2.webp")
+img = cv2.imread("3.jpg")
 
 # convert it to gray
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
